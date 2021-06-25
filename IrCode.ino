@@ -7,7 +7,7 @@ void setup(){
 
 void loop(){
   #Code for EZ-adjust
-  irCode=20DFFF00;
+  irCode=0x20DFFF00;
   irsend.sendNEC(irCode,32);
   sleep 2;
 }
